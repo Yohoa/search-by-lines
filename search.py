@@ -1,8 +1,14 @@
 import webbrowser
-f = open("List 6.txt", "r")
+f = open("toSearch.txt", "r")
 i = 0
+
+MW = "https://www.merriam-webster.com/thesaurus/"
+GScholar = "https://scholar.google.com/scholar?hl=en&q="
+
+URL = GScholar
+
 for x in f:
-    webbrowser.open("https://www.merriam-webster.com/thesaurus/" + x)
+    webbrowser.open( URL + x)
     print(x)
     i = i + 1
     if (i == 20-1):
