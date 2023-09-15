@@ -16,7 +16,7 @@ Loop, Parse, MyEdit, `n
 {
     StringTrimRight, x, A_LoopField, 0 ; Remove newline character
     Run, % GScholar . URLEncode(x)
-    Sleep, 100 ; Sleep for 1 second (adjust as needed)
+    Sleep, 1000 ; Sleep for 1 second (adjust as needed)
     SendInput, %x%{Enter}
 }
 ExitApp
@@ -28,7 +28,7 @@ Loop, Parse, MyEdit, `n
 {
     StringTrimRight, x, A_LoopField, 0 ; Remove newline character
     Run, % MW . URLEncode(x)
-    Sleep, 100 ; Sleep for 1 second (adjust as needed)
+    Sleep, 1000 ; Sleep for 1 second (adjust as needed)
     SendInput, %x%{Enter}
 }
 ExitApp

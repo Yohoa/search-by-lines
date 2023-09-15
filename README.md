@@ -7,6 +7,8 @@ An economical and easy-to-use project that can help you batch search for words/f
 
 `SearchToolEvo.exe`这是一个自动搜索工具，用于在 Google Scholar 和 Merriam-Webster Thesaurus 上搜索关键词。
 
+![image-20230915155736088](./README.assets/image-20230915155736088.png)
+
 ### 工具界面
 
 当你运行`SearchToolEvo.exe`后，会看到一个简单的界面，包含以下元素：
@@ -17,7 +19,7 @@ An economical and easy-to-use project that can help you batch search for words/f
 
 - **搜索 MW 按钮**：点击这个按钮将使用你输入的关键词在 Merriam-Webster Thesaurus 上进行搜索。
 
-  ![image-20230915155014288](./README.assets/image-20230915155014288.png)
+  ![image-20230915155752293](./README.assets/image-20230915155752293.png)
 
 #### 使用步骤
 
