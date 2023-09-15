@@ -25,7 +25,7 @@ An economical and easy-to-use project that can help you batch search for words/f
 
 1. 在搜索查询输入框中，每一行输入一个你想要搜索的关键词。例如：
 
-   ```
+   ```text
    计算机科学
    人工智能
    数据分析
