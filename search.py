@@ -4,8 +4,9 @@ i = 0
 
 MW = "https://www.merriam-webster.com/thesaurus/"
 GScholar = "https://scholar.google.com/scholar?hl=en&q="
+Woorden = "https://www.woorden.org/woord/"
 
-URL = GScholar
+URL = Woorden
 
 lines_to_search_each_time = 5
 
